@@ -148,7 +148,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void submit() {
     if (cellphoneControler.text.isEmpty) {
-      _myconfig.toast(msg: "Please Enter Cell Phone.");
+      _myconfig.toast(msg: "Please Enter Cell Phone");
       return;
     } else {
       Navigator.push(
